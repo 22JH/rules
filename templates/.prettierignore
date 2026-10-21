@@ -1,0 +1,27 @@
+# 빌드 산출물
+**/dist
+**/build
+**/.next
+**/.turbo
+**/storybook-static
+**/coverage
+
+# 자동 생성물(커밋되지만 포맷 대상 아님)
+packages/oa-toolkit/docs
+packages/icons/src/generated
+packages/icons/src/NewIcon/types-generated.ts
+
+# 애니메이션 데이터(Lottie JSON)
+packages/ui/src/components/lotties/*.json
+
+# 테스트 산출물
+**/test-results
+
+# 생성된 타입 선언(next-env 등)
+**/*.d.ts
+
+# Lockfile
+pnpm-lock.yaml
+
+# SDD workspace (not part of the repo)
+.superpowers/
